@@ -1,0 +1,200 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search...",
+    "noResults": "No results found",
+    "back": "Back",
+    "next": "Next",
+    "finish": "Finish",
+    "close": "Close"
+  },
+  "navigation": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "workflows": "Workflows",
+    "agents": "Agents",
+    "personalities": "Personalities",
+    "analytics": "Analytics",
+    "settings": "Settings",
+    "profile": "Profile",
+    "documentation": "Documentation"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back",
+    "stats": {
+      "workflows": "Active Workflows",
+      "agents": "Ready Agents",
+      "training": "Training Agents",
+      "tasks": "Completed Tasks"
+    },
+    "quickActions": {
+      "createWorkflow": "Create Workflow",
+      "createAgent": "Create Agent",
+      "createPersonality": "Create Personality"
+    }
+  },
+  "workflows": {
+    "title": "Workflows",
+    "create": "Create Workflow",
+    "edit": "Edit Workflow",
+    "delete": "Delete Workflow",
+    "enable": "Enable Workflow",
+    "disable": "Disable Workflow",
+    "form": {
+      "name": "Workflow Name",
+      "description": "Description",
+      "trigger": "Trigger Type",
+      "actions": "Actions",
+      "conditions": "Conditions"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "running": "Running",
+      "error": "Error"
+    }
+  },
+  "agents": {
+    "title": "Agents",
+    "create": "Create Agent",
+    "edit": "Edit Agent",
+    "delete": "Delete Agent",
+    "train": "Train Agent",
+    "stop": "Stop Training",
+    "form": {
+      "name": "Agent Name",
+      "description": "Description",
+      "personality": "Personality",
+      "trainingData": "Training Data",
+      "configuration": "Training Configuration"
+    },
+    "status": {
+      "ready": "Ready",
+      "training": "Training",
+      "error": "Error"
+    }
+  },
+  "personalities": {
+    "title": "Personalities",
+    "create": "Create Personality",
+    "edit": "Edit Personality",
+    "delete": "Delete Personality",
+    "form": {
+      "name": "Personality Name",
+      "description": "Description",
+      "traits": "Traits",
+      "styleGuide": "Style Guide",
+      "responseTemplates": "Response Templates",
+      "knowledgeBase": "Knowledge Base"
+    }
+  },
+  "analytics": {
+    "title": "Analytics",
+    "timeRange": "Time Range",
+    "metrics": {
+      "tasks": "Total Tasks",
+      "successRate": "Success Rate",
+      "activeAgents": "Active Agents",
+      "responseTime": "Avg. Response Time"
+    },
+    "charts": {
+      "performance": "Performance Overview",
+      "distribution": "Task Distribution",
+      "agentPerformance": "Agent Performance"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": {
+      "title": "Appearance",
+      "theme": "Theme",
+      "language": "Language"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "email": "Email Notifications",
+      "push": "Push Notifications",
+      "inApp": "In-App Notifications"
+    },
+    "privacy": {
+      "title": "Privacy",
+      "dataCollection": "Data Collection",
+      "analytics": "Analytics",
+      "sharing": "Data Sharing"
+    },
+    "performance": {
+      "title": "Performance",
+      "batchSize": "Batch Size",
+      "maxWorkers": "Max Workers",
+      "cacheSize": "Cache Size"
+    },
+    "api": {
+      "title": "API Configuration",
+      "endpoint": "API Endpoint",
+      "apiKey": "API Key",
+      "timeout": "Timeout"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "edit": "Edit Profile",
+    "security": "Security Settings",
+    "preferences": "Preferences",
+    "backup": "Backup & Restore",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "bio": "Bio",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm New Password",
+      "twoFactor": "Enable Two-Factor Authentication"
+    },
+    "stats": {
+      "workflows": "Workflows Created",
+      "agents": "Agents Trained",
+      "tasks": "Tasks Completed",
+      "storage": "Storage Used"
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "markAllRead": "Mark All as Read",
+    "clearAll": "Clear All",
+    "noNotifications": "No notifications",
+    "allCaughtUp": "You're all caught up!"
+  },
+  "errors": {
+    "general": "Something went wrong",
+    "network": "Network error",
+    "unauthorized": "Unauthorized access",
+    "forbidden": "Access forbidden",
+    "notFound": "Resource not found",
+    "server": "Server error",
+    "validation": "Validation error"
+  },
+  "success": {
+    "profileUpdated": "Profile updated successfully",
+    "settingsSaved": "Settings saved successfully",
+    "workflowCreated": "Workflow created successfully",
+    "workflowUpdated": "Workflow updated successfully",
+    "workflowDeleted": "Workflow deleted successfully",
+    "agentCreated": "Agent created successfully",
+    "agentUpdated": "Agent updated successfully",
+    "agentDeleted": "Agent deleted successfully",
+    "personalityCreated": "Personality created successfully",
+    "personalityUpdated": "Personality updated successfully",
+    "personalityDeleted": "Personality deleted successfully"
+  }
+} 

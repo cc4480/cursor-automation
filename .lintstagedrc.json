@@ -1,0 +1,50 @@
+{
+  "*.{js,jsx,ts,tsx}": [
+    "eslint --fix",
+    "prettier --write",
+    "git add"
+  ],
+  "*.{css,scss,less,styl}": [
+    "stylelint --fix",
+    "prettier --write",
+    "git add"
+  ],
+  "*.{json,md,yml,yaml}": [
+    "prettier --write",
+    "git add"
+  ],
+  "*.{png,jpg,jpeg,gif,svg}": [
+    "imagemin --write",
+    "git add"
+  ],
+  "*.{woff,woff2,ttf,eot}": [
+    "prettier --write",
+    "git add"
+  ],
+  "*.{pdf,doc,docx,xls,xlsx,ppt,pptx}": [
+    "git add"
+  ],
+  "*.{zip,rar,7z,tar,gz}": [
+    "git add"
+  ],
+  "*.{sh,bash,cmd,ps1}": [
+    "prettier --write",
+    "git add"
+  ],
+  "*.{py,java,cpp,c,h,hpp,cs,php,rb,go,rs,swift,kt,scala,r,m,sql}": [
+    "prettier --write",
+    "git add"
+  ],
+  "*.{dockerfile,dockerignore}": [
+    "prettier --write",
+    "git add"
+  ],
+  "*.{gitignore,env*}": [
+    "prettier --write",
+    "git add"
+  ],
+  "*.{config.js,config.ts}": [
+    "prettier --write",
+    "git add"
+  ]
+} 

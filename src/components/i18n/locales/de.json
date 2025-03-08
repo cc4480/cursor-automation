@@ -1,0 +1,200 @@
+{
+  "common": {
+    "loading": "Wird geladen...",
+    "error": "Fehler",
+    "success": "Erfolg",
+    "warning": "Warnung",
+    "info": "Information",
+    "confirm": "Bestätigen",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "create": "Erstellen",
+    "search": "Suchen...",
+    "noResults": "Keine Ergebnisse gefunden",
+    "back": "Zurück",
+    "next": "Weiter",
+    "finish": "Fertigstellen",
+    "close": "Schließen"
+  },
+  "navigation": {
+    "home": "Startseite",
+    "dashboard": "Dashboard",
+    "workflows": "Workflows",
+    "agents": "Agenten",
+    "personalities": "Persönlichkeiten",
+    "analytics": "Analysen",
+    "settings": "Einstellungen",
+    "profile": "Profil",
+    "documentation": "Dokumentation"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Willkommen zurück",
+    "stats": {
+      "workflows": "Aktive Workflows",
+      "agents": "Einsatzbereite Agenten",
+      "training": "Agenten in Ausbildung",
+      "tasks": "Abgeschlossene Aufgaben"
+    },
+    "quickActions": {
+      "createWorkflow": "Workflow erstellen",
+      "createAgent": "Agent erstellen",
+      "createPersonality": "Persönlichkeit erstellen"
+    }
+  },
+  "workflows": {
+    "title": "Workflows",
+    "create": "Workflow erstellen",
+    "edit": "Workflow bearbeiten",
+    "delete": "Workflow löschen",
+    "enable": "Workflow aktivieren",
+    "disable": "Workflow deaktivieren",
+    "form": {
+      "name": "Workflow-Name",
+      "description": "Beschreibung",
+      "trigger": "Auslösertyp",
+      "actions": "Aktionen",
+      "conditions": "Bedingungen"
+    },
+    "status": {
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "running": "Läuft",
+      "error": "Fehler"
+    }
+  },
+  "agents": {
+    "title": "Agenten",
+    "create": "Agent erstellen",
+    "edit": "Agent bearbeiten",
+    "delete": "Agent löschen",
+    "train": "Agent trainieren",
+    "stop": "Training stoppen",
+    "form": {
+      "name": "Agenten-Name",
+      "description": "Beschreibung",
+      "personality": "Persönlichkeit",
+      "trainingData": "Trainingsdaten",
+      "configuration": "Trainingskonfiguration"
+    },
+    "status": {
+      "ready": "Einsatzbereit",
+      "training": "In Ausbildung",
+      "error": "Fehler"
+    }
+  },
+  "personalities": {
+    "title": "Persönlichkeiten",
+    "create": "Persönlichkeit erstellen",
+    "edit": "Persönlichkeit bearbeiten",
+    "delete": "Persönlichkeit löschen",
+    "form": {
+      "name": "Name der Persönlichkeit",
+      "description": "Beschreibung",
+      "traits": "Eigenschaften",
+      "styleGuide": "Stilrichtlinien",
+      "responseTemplates": "Antwortvorlagen",
+      "knowledgeBase": "Wissensbasis"
+    }
+  },
+  "analytics": {
+    "title": "Analysen",
+    "timeRange": "Zeitraum",
+    "metrics": {
+      "tasks": "Gesamtaufgaben",
+      "successRate": "Erfolgsrate",
+      "activeAgents": "Aktive Agenten",
+      "responseTime": "Durchschnittliche Reaktionszeit"
+    },
+    "charts": {
+      "performance": "Leistungsübersicht",
+      "distribution": "Aufgabenverteilung",
+      "agentPerformance": "Agentenleistung"
+    }
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "appearance": {
+      "title": "Erscheinungsbild",
+      "theme": "Design",
+      "language": "Sprache"
+    },
+    "notifications": {
+      "title": "Benachrichtigungen",
+      "email": "E-Mail-Benachrichtigungen",
+      "push": "Push-Benachrichtigungen",
+      "inApp": "In-App-Benachrichtigungen"
+    },
+    "privacy": {
+      "title": "Datenschutz",
+      "dataCollection": "Datenerfassung",
+      "analytics": "Analysen",
+      "sharing": "Datenaustausch"
+    },
+    "performance": {
+      "title": "Leistung",
+      "batchSize": "Batch-Größe",
+      "maxWorkers": "Maximale Worker",
+      "cacheSize": "Cache-Größe"
+    },
+    "api": {
+      "title": "API-Konfiguration",
+      "endpoint": "API-Endpunkt",
+      "apiKey": "API-Schlüssel",
+      "timeout": "Zeitüberschreitung"
+    }
+  },
+  "profile": {
+    "title": "Profil",
+    "edit": "Profil bearbeiten",
+    "security": "Sicherheitseinstellungen",
+    "preferences": "Präferenzen",
+    "backup": "Backup & Wiederherstellung",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "bio": "Biografie",
+      "currentPassword": "Aktuelles Passwort",
+      "newPassword": "Neues Passwort",
+      "confirmPassword": "Neues Passwort bestätigen",
+      "twoFactor": "Zwei-Faktor-Authentifizierung aktivieren"
+    },
+    "stats": {
+      "workflows": "Erstellte Workflows",
+      "agents": "Trainierte Agenten",
+      "tasks": "Abgeschlossene Aufgaben",
+      "storage": "Genutzter Speicher"
+    }
+  },
+  "notifications": {
+    "title": "Benachrichtigungen",
+    "markAllRead": "Alle als gelesen markieren",
+    "clearAll": "Alle löschen",
+    "noNotifications": "Keine Benachrichtigungen",
+    "allCaughtUp": "Sie sind auf dem Laufenden!"
+  },
+  "errors": {
+    "general": "Etwas ist schiefgelaufen",
+    "network": "Netzwerkfehler",
+    "unauthorized": "Nicht autorisiert",
+    "forbidden": "Zugriff verboten",
+    "notFound": "Ressource nicht gefunden",
+    "server": "Serverfehler",
+    "validation": "Validierungsfehler"
+  },
+  "success": {
+    "profileUpdated": "Profil erfolgreich aktualisiert",
+    "settingsSaved": "Einstellungen erfolgreich gespeichert",
+    "workflowCreated": "Workflow erfolgreich erstellt",
+    "workflowUpdated": "Workflow erfolgreich aktualisiert",
+    "workflowDeleted": "Workflow erfolgreich gelöscht",
+    "agentCreated": "Agent erfolgreich erstellt",
+    "agentUpdated": "Agent erfolgreich aktualisiert",
+    "agentDeleted": "Agent erfolgreich gelöscht",
+    "personalityCreated": "Persönlichkeit erfolgreich erstellt",
+    "personalityUpdated": "Persönlichkeit erfolgreich aktualisiert",
+    "personalityDeleted": "Persönlichkeit erfolgreich gelöscht"
+  }
+} 

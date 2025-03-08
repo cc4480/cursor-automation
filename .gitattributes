@@ -1,0 +1,151 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# TypeScript and JavaScript files
+*.ts text
+*.tsx text
+*.js text
+*.jsx text
+
+# CSS, SCSS, and JSON files
+*.css text
+*.scss text
+*.json text
+
+# Markdown files
+*.md text diff=markdown
+
+# YAML files
+*.yml text
+*.yaml text
+
+# HTML files
+*.html text
+
+# Configuration files
+*.ini text
+*.conf text
+*.config text
+
+# Shell scripts
+*.sh text eol=lf
+*.bash text eol=lf
+
+# Python files
+*.py text
+
+# Java files
+*.java text
+
+# C# files
+*.cs text
+
+# PHP files
+*.php text
+
+# Ruby files
+*.rb text
+
+# Go files
+*.go text
+
+# Rust files
+*.rs text
+
+# Swift files
+*.swift text
+
+# Kotlin files
+*.kt text
+
+# Scala files
+*.scala text
+
+# R files
+*.r text
+
+# MATLAB files
+*.m text
+
+# SQL files
+*.sql text
+
+# Batch files
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# PowerShell files
+*.ps1 text eol=crlf
+
+# Makefiles
+Makefile text eol=lf
+
+# Docker files
+Dockerfile text eol=lf
+
+# Documentation
+*.rst text
+
+# Configuration files
+*.ini text
+*.conf text
+*.config text
+
+# Log files
+*.log text
+
+# Data files
+*.csv text
+*.tsv text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.svg text
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+
+# Environment files
+.env* text
+!.env.example
+
+# Package files
+package-lock.json text
+yarn.lock text
+pnpm-lock.yaml text
+
+# Build output
+dist/ -text
+build/ -text
+out/ -text
+
+# Coverage reports
+coverage/ -text
+.nyc_output/ -text
+
+# Cache directories
+.cache/ -text
+.eslintcache/ -text
+.stylelintcache/ -text
+
+# Editor directories and files
+.idea/ -text
+.vscode/ -text
+*.suo binary
+*.ntvs* binary
+*.njsproj binary
+*.sln binary
+*.sw? binary
+
+# OS generated files
+.DS_Store binary
+.DS_Store? binary
+._* binary
+.Spotlight-V100 binary
+.Trashes binary
+ehthumbs.db binary
+Thumbs.db binary 

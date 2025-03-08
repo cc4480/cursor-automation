@@ -1,0 +1,200 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "warning": "Avertissement",
+    "info": "Information",
+    "confirm": "Confirmer",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "create": "Créer",
+    "search": "Rechercher...",
+    "noResults": "Aucun résultat trouvé",
+    "back": "Retour",
+    "next": "Suivant",
+    "finish": "Terminer",
+    "close": "Fermer"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "dashboard": "Tableau de bord",
+    "workflows": "Flux de travail",
+    "agents": "Agents",
+    "personalities": "Personnalités",
+    "analytics": "Analytique",
+    "settings": "Paramètres",
+    "profile": "Profil",
+    "documentation": "Documentation"
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "welcome": "Bon retour",
+    "stats": {
+      "workflows": "Flux actifs",
+      "agents": "Agents prêts",
+      "training": "Agents en formation",
+      "tasks": "Tâches terminées"
+    },
+    "quickActions": {
+      "createWorkflow": "Créer un flux",
+      "createAgent": "Créer un agent",
+      "createPersonality": "Créer une personnalité"
+    }
+  },
+  "workflows": {
+    "title": "Flux de travail",
+    "create": "Créer un flux",
+    "edit": "Modifier le flux",
+    "delete": "Supprimer le flux",
+    "enable": "Activer le flux",
+    "disable": "Désactiver le flux",
+    "form": {
+      "name": "Nom du flux",
+      "description": "Description",
+      "trigger": "Type de déclencheur",
+      "actions": "Actions",
+      "conditions": "Conditions"
+    },
+    "status": {
+      "active": "Actif",
+      "inactive": "Inactif",
+      "running": "En cours",
+      "error": "Erreur"
+    }
+  },
+  "agents": {
+    "title": "Agents",
+    "create": "Créer un agent",
+    "edit": "Modifier l'agent",
+    "delete": "Supprimer l'agent",
+    "train": "Former l'agent",
+    "stop": "Arrêter la formation",
+    "form": {
+      "name": "Nom de l'agent",
+      "description": "Description",
+      "personality": "Personnalité",
+      "trainingData": "Données de formation",
+      "configuration": "Configuration de formation"
+    },
+    "status": {
+      "ready": "Prêt",
+      "training": "En formation",
+      "error": "Erreur"
+    }
+  },
+  "personalities": {
+    "title": "Personnalités",
+    "create": "Créer une personnalité",
+    "edit": "Modifier la personnalité",
+    "delete": "Supprimer la personnalité",
+    "form": {
+      "name": "Nom de la personnalité",
+      "description": "Description",
+      "traits": "Traits",
+      "styleGuide": "Guide de style",
+      "responseTemplates": "Modèles de réponse",
+      "knowledgeBase": "Base de connaissances"
+    }
+  },
+  "analytics": {
+    "title": "Analytique",
+    "timeRange": "Période",
+    "metrics": {
+      "tasks": "Tâches totales",
+      "successRate": "Taux de réussite",
+      "activeAgents": "Agents actifs",
+      "responseTime": "Temps de réponse moyen"
+    },
+    "charts": {
+      "performance": "Aperçu des performances",
+      "distribution": "Distribution des tâches",
+      "agentPerformance": "Performance des agents"
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "appearance": {
+      "title": "Apparence",
+      "theme": "Thème",
+      "language": "Langue"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "email": "Notifications par e-mail",
+      "push": "Notifications push",
+      "inApp": "Notifications dans l'application"
+    },
+    "privacy": {
+      "title": "Confidentialité",
+      "dataCollection": "Collecte de données",
+      "analytics": "Analytique",
+      "sharing": "Partage de données"
+    },
+    "performance": {
+      "title": "Performance",
+      "batchSize": "Taille du lot",
+      "maxWorkers": "Nombre max. de travailleurs",
+      "cacheSize": "Taille du cache"
+    },
+    "api": {
+      "title": "Configuration API",
+      "endpoint": "Point d'accès API",
+      "apiKey": "Clé API",
+      "timeout": "Délai d'attente"
+    }
+  },
+  "profile": {
+    "title": "Profil",
+    "edit": "Modifier le profil",
+    "security": "Paramètres de sécurité",
+    "preferences": "Préférences",
+    "backup": "Sauvegarde et restauration",
+    "form": {
+      "name": "Nom",
+      "email": "E-mail",
+      "bio": "Biographie",
+      "currentPassword": "Mot de passe actuel",
+      "newPassword": "Nouveau mot de passe",
+      "confirmPassword": "Confirmer le nouveau mot de passe",
+      "twoFactor": "Activer l'authentification à deux facteurs"
+    },
+    "stats": {
+      "workflows": "Flux créés",
+      "agents": "Agents formés",
+      "tasks": "Tâches terminées",
+      "storage": "Stockage utilisé"
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "markAllRead": "Tout marquer comme lu",
+    "clearAll": "Tout effacer",
+    "noNotifications": "Aucune notification",
+    "allCaughtUp": "Vous êtes à jour !"
+  },
+  "errors": {
+    "general": "Une erreur est survenue",
+    "network": "Erreur réseau",
+    "unauthorized": "Accès non autorisé",
+    "forbidden": "Accès interdit",
+    "notFound": "Ressource non trouvée",
+    "server": "Erreur serveur",
+    "validation": "Erreur de validation"
+  },
+  "success": {
+    "profileUpdated": "Profil mis à jour avec succès",
+    "settingsSaved": "Paramètres enregistrés avec succès",
+    "workflowCreated": "Flux créé avec succès",
+    "workflowUpdated": "Flux mis à jour avec succès",
+    "workflowDeleted": "Flux supprimé avec succès",
+    "agentCreated": "Agent créé avec succès",
+    "agentUpdated": "Agent mis à jour avec succès",
+    "agentDeleted": "Agent supprimé avec succès",
+    "personalityCreated": "Personnalité créée avec succès",
+    "personalityUpdated": "Personnalité mise à jour avec succès",
+    "personalityDeleted": "Personnalité supprimée avec succès"
+  }
+} 

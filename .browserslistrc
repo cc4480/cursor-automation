@@ -1,0 +1,34 @@
+# Production
+>0.2%
+not dead
+not op_mini all
+
+# Development
+last 1 chrome version
+last 1 firefox version
+last 1 safari version
+last 1 edge version
+
+# Custom targets
+# Supports modern browsers
+> 0.5%
+last 2 versions
+Firefox ESR
+not dead
+
+# Supports older browsers
+> 0.5%
+last 2 versions
+Firefox ESR
+not dead
+ie 11
+
+# Supports all browsers
+> 0.5%
+last 2 versions
+Firefox ESR
+not dead
+ie 11
+safari >= 9
+ios >= 9
+android >= 4.4 

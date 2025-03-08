@@ -1,0 +1,200 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "warning": "Advertencia",
+    "info": "Información",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "create": "Crear",
+    "search": "Buscar...",
+    "noResults": "No se encontraron resultados",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "finish": "Finalizar",
+    "close": "Cerrar"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "dashboard": "Panel",
+    "workflows": "Flujos de trabajo",
+    "agents": "Agentes",
+    "personalities": "Personalidades",
+    "analytics": "Análisis",
+    "settings": "Configuración",
+    "profile": "Perfil",
+    "documentation": "Documentación"
+  },
+  "dashboard": {
+    "title": "Panel de control",
+    "welcome": "Bienvenido de nuevo",
+    "stats": {
+      "workflows": "Flujos activos",
+      "agents": "Agentes listos",
+      "training": "Agentes en entrenamiento",
+      "tasks": "Tareas completadas"
+    },
+    "quickActions": {
+      "createWorkflow": "Crear flujo",
+      "createAgent": "Crear agente",
+      "createPersonality": "Crear personalidad"
+    }
+  },
+  "workflows": {
+    "title": "Flujos de trabajo",
+    "create": "Crear flujo",
+    "edit": "Editar flujo",
+    "delete": "Eliminar flujo",
+    "enable": "Activar flujo",
+    "disable": "Desactivar flujo",
+    "form": {
+      "name": "Nombre del flujo",
+      "description": "Descripción",
+      "trigger": "Tipo de activación",
+      "actions": "Acciones",
+      "conditions": "Condiciones"
+    },
+    "status": {
+      "active": "Activo",
+      "inactive": "Inactivo",
+      "running": "En ejecución",
+      "error": "Error"
+    }
+  },
+  "agents": {
+    "title": "Agentes",
+    "create": "Crear agente",
+    "edit": "Editar agente",
+    "delete": "Eliminar agente",
+    "train": "Entrenar agente",
+    "stop": "Detener entrenamiento",
+    "form": {
+      "name": "Nombre del agente",
+      "description": "Descripción",
+      "personality": "Personalidad",
+      "trainingData": "Datos de entrenamiento",
+      "configuration": "Configuración de entrenamiento"
+    },
+    "status": {
+      "ready": "Listo",
+      "training": "Entrenando",
+      "error": "Error"
+    }
+  },
+  "personalities": {
+    "title": "Personalidades",
+    "create": "Crear personalidad",
+    "edit": "Editar personalidad",
+    "delete": "Eliminar personalidad",
+    "form": {
+      "name": "Nombre de la personalidad",
+      "description": "Descripción",
+      "traits": "Rasgos",
+      "styleGuide": "Guía de estilo",
+      "responseTemplates": "Plantillas de respuesta",
+      "knowledgeBase": "Base de conocimiento"
+    }
+  },
+  "analytics": {
+    "title": "Análisis",
+    "timeRange": "Rango de tiempo",
+    "metrics": {
+      "tasks": "Tareas totales",
+      "successRate": "Tasa de éxito",
+      "activeAgents": "Agentes activos",
+      "responseTime": "Tiempo de respuesta promedio"
+    },
+    "charts": {
+      "performance": "Resumen de rendimiento",
+      "distribution": "Distribución de tareas",
+      "agentPerformance": "Rendimiento de agentes"
+    }
+  },
+  "settings": {
+    "title": "Configuración",
+    "appearance": {
+      "title": "Apariencia",
+      "theme": "Tema",
+      "language": "Idioma"
+    },
+    "notifications": {
+      "title": "Notificaciones",
+      "email": "Notificaciones por correo",
+      "push": "Notificaciones push",
+      "inApp": "Notificaciones en la aplicación"
+    },
+    "privacy": {
+      "title": "Privacidad",
+      "dataCollection": "Recopilación de datos",
+      "analytics": "Análisis",
+      "sharing": "Compartir datos"
+    },
+    "performance": {
+      "title": "Rendimiento",
+      "batchSize": "Tamaño del lote",
+      "maxWorkers": "Máximo de trabajadores",
+      "cacheSize": "Tamaño de caché"
+    },
+    "api": {
+      "title": "Configuración de API",
+      "endpoint": "Punto final de API",
+      "apiKey": "Clave de API",
+      "timeout": "Tiempo de espera"
+    }
+  },
+  "profile": {
+    "title": "Perfil",
+    "edit": "Editar perfil",
+    "security": "Configuración de seguridad",
+    "preferences": "Preferencias",
+    "backup": "Respaldo y restauración",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "bio": "Biografía",
+      "currentPassword": "Contraseña actual",
+      "newPassword": "Nueva contraseña",
+      "confirmPassword": "Confirmar nueva contraseña",
+      "twoFactor": "Activar autenticación de dos factores"
+    },
+    "stats": {
+      "workflows": "Flujos creados",
+      "agents": "Agentes entrenados",
+      "tasks": "Tareas completadas",
+      "storage": "Almacenamiento usado"
+    }
+  },
+  "notifications": {
+    "title": "Notificaciones",
+    "markAllRead": "Marcar todo como leído",
+    "clearAll": "Limpiar todo",
+    "noNotifications": "Sin notificaciones",
+    "allCaughtUp": "¡Estás al día!"
+  },
+  "errors": {
+    "general": "Algo salió mal",
+    "network": "Error de red",
+    "unauthorized": "Acceso no autorizado",
+    "forbidden": "Acceso prohibido",
+    "notFound": "Recurso no encontrado",
+    "server": "Error del servidor",
+    "validation": "Error de validación"
+  },
+  "success": {
+    "profileUpdated": "Perfil actualizado exitosamente",
+    "settingsSaved": "Configuración guardada exitosamente",
+    "workflowCreated": "Flujo creado exitosamente",
+    "workflowUpdated": "Flujo actualizado exitosamente",
+    "workflowDeleted": "Flujo eliminado exitosamente",
+    "agentCreated": "Agente creado exitosamente",
+    "agentUpdated": "Agente actualizado exitosamente",
+    "agentDeleted": "Agente eliminado exitosamente",
+    "personalityCreated": "Personalidad creada exitosamente",
+    "personalityUpdated": "Personalidad actualizada exitosamente",
+    "personalityDeleted": "Personalidad eliminada exitosamente"
+  }
+} 

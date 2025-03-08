@@ -1,0 +1,164 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+trim_trailing_whitespace = true
+
+# TypeScript and JavaScript files
+[*.{ts,tsx,js,jsx}]
+indent_style = space
+indent_size = 2
+quote_type = single
+max_line_length = 100
+
+# CSS, SCSS, and JSON files
+[*.{css,scss,json}]
+indent_style = space
+indent_size = 2
+
+# Markdown files
+[*.md]
+trim_trailing_whitespace = false
+max_line_length = off
+
+# YAML files
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+
+# HTML files
+[*.html]
+indent_style = space
+indent_size = 2
+
+# Configuration files
+[*.{ini,conf}]
+indent_style = space
+indent_size = 2
+
+# Shell scripts
+[*.sh]
+indent_style = space
+indent_size = 2
+
+# Python files
+[*.py]
+indent_style = space
+indent_size = 4
+
+# Java files
+[*.java]
+indent_style = space
+indent_size = 4
+
+# C# files
+[*.cs]
+indent_style = space
+indent_size = 4
+
+# PHP files
+[*.php]
+indent_style = space
+indent_size = 4
+
+# Ruby files
+[*.rb]
+indent_style = space
+indent_size = 2
+
+# Go files
+[*.go]
+indent_style = tab
+indent_size = 4
+
+# Rust files
+[*.rs]
+indent_style = space
+indent_size = 4
+
+# Swift files
+[*.swift]
+indent_style = space
+indent_size = 4
+
+# Kotlin files
+[*.kt]
+indent_style = space
+indent_size = 4
+
+# Scala files
+[*.scala]
+indent_style = space
+indent_size = 2
+
+# R files
+[*.r]
+indent_style = space
+indent_size = 2
+
+# MATLAB files
+[*.m]
+indent_style = space
+indent_size = 4
+
+# SQL files
+[*.sql]
+indent_style = space
+indent_size = 2
+
+# Shell scripts
+[*.{sh,bash}]
+indent_style = space
+indent_size = 2
+
+# Batch files
+[*.{bat,cmd}]
+indent_style = space
+indent_size = 2
+
+# PowerShell files
+[*.ps1]
+indent_style = space
+indent_size = 2
+
+# Makefiles
+[Makefile]
+indent_style = tab
+indent_size = 4
+
+# Docker files
+[Dockerfile]
+indent_style = space
+indent_size = 2
+
+# Git files
+[*.git*]
+insert_final_newline = false
+
+# Documentation
+[*.rst]
+indent_style = space
+indent_size = 4
+
+# Configuration files
+[*.{ini,conf,config}]
+indent_style = space
+indent_size = 2
+
+# Log files
+[*.log]
+insert_final_newline = false
+
+# Data files
+[*.{csv,tsv}]
+insert_final_newline = false
+
+# Binary files
+[*.{png,jpg,gif,ico,svg,woff,woff2,ttf,eot}]
+insert_final_newline = false 

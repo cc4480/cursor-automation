@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "pre-commit": "lint-staged",
+    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+    "pre-push": "npm run test && npm run build",
+    "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
+    "post-commit": "git log -1 --pretty=%B | grep -E '^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(\\(.+\\))?: .{1,50}$' || (echo 'Commit message does not follow conventional commits format' && exit 1)",
+    "post-merge": "npm install",
+    "post-checkout": "npm install",
+    "post-rewrite": "git reflog expire --expire=now --all && git gc --prune=now --aggressive"
+  }
+} 

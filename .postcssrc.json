@@ -1,0 +1,59 @@
+{
+  "plugins": {
+    "postcss-flexbugs-fixes": {},
+    "postcss-preset-env": {
+      "autoprefixer": {
+        "flexbox": "no-2009"
+      },
+      "stage": 3,
+      "features": {
+        "custom-properties": false,
+        "nesting-rules": true
+      }
+    },
+    "postcss-normalize": {},
+    "postcss-reporter": {
+      "clearReportedMessages": true
+    },
+    "postcss-browser-reporter": {},
+    "postcss-custom-properties": {},
+    "postcss-custom-media": {},
+    "postcss-calc": {},
+    "postcss-color-function": {},
+    "postcss-discard-comments": {
+      "removeAll": true,
+      "removeAllButFirst": true
+    },
+    "postcss-merge-rules": {},
+    "postcss-merge-longhand": {},
+    "postcss-minify-gradients": {},
+    "postcss-minify-params": {},
+    "postcss-minify-selectors": {},
+    "postcss-normalize-charset": {},
+    "postcss-normalize-display-values": {},
+    "postcss-normalize-positions": {},
+    "postcss-normalize-repeat-style": {},
+    "postcss-normalize-string": {},
+    "postcss-normalize-timing-functions": {},
+    "postcss-normalize-unicode": {},
+    "postcss-normalize-url": {},
+    "postcss-ordered-values": {},
+    "postcss-reduce-initial": {},
+    "postcss-reduce-transforms": {},
+    "postcss-svgo": {},
+    "postcss-unique-selectors": {},
+    "postcss-zindex": {},
+    "cssnano": {
+      "preset": [
+        "default",
+        {
+          "discardComments": {
+            "removeAll": true,
+            "removeAllButFirst": true
+          },
+          "normalizeWhitespace": true
+        }
+      ]
+    }
+  }
+} 
